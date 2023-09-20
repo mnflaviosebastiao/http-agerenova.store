@@ -28,7 +28,7 @@ header.header h1 {
 
 /* Principal */
 section.principal {
-	background: #000000 url("../img/bg-topo.jpg")50% 0 no-repeat;
+	background: #000000 url("../img/bg-topo.webp")50% 0 no-repeat;
 	padding: 50px 0;
 }
 section.principal h1 {
@@ -99,6 +99,7 @@ section.principal svg.bi.bi-chevron-double-down {
     margin: 35px 0;
 	color: #d6ca92;
 }
+
 .pulsar {
     animation-name: pulse;
     -webkit-animation-name: pulse;
@@ -682,7 +683,7 @@ section.vsl h1 span {
 
 /* Upsell */
 section.oferta-upsell {
-	background: #000000 url("../img/bg-topo.jpg") 50% 0 no-repeat;
+	background: #000000 url("../img/bg-topo.webp") 50% 0 no-repeat;
     padding: 75px 0;
 }
 section.oferta-upsell h1 {
@@ -799,7 +800,7 @@ footer.footer a {
 	font-size: 13px;
 }
 a.whatsapp-ft {
-    background: url("../img/wpp-ft.jpg")no-repeat center !important;
+    background: url("../img/wpp-ft.webp")no-repeat center !important;
     background-size: 75px !important;
     z-index: 1000;
     height: 75px;
@@ -1154,6 +1155,27 @@ a.whatsapp-ft {
 		margin: 0 auto;
 	}		
 	/* Rodapé */
+	
+	        /* Estilo para exibir a mensagem */
+        #mensagem {
+            padding:18px;
+            margin: 0;
+            font-size: 17px;
+            line-height:1.1em;
+            text-transform:Uppercase;
+            font-weight:600;
+            text-align: center;
+            color:#fff;
+        }
+        .fixed-top {
+            margin: auto !important;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: red;
+        }
 
 }
 /* Responsivo */
