@@ -1,6 +1,6 @@
 const CONFIG_GESTOR = {
     checkoutLinks: {
-        opcao1: 'https://checkout.payt.com.br/36920c7628b5bc6824378f3411bbfa34?src=Flavio_PV_antiga',
+        opcao1: 'https://api.whatsapp.com/send?phone=5548999626709&text=Ol%C3%A1,%20gostaria%20de%20comprar%20mais%20do%20que%205%20unidades%20do%20age%20renova',
         opcao2: 'https://checkout.payt.com.br/df01683a169bdcc3853ab5bd852a9832?src=flavio_PV_antiga',
         opcao3: 'https://checkout.payt.com.br/90d89eccfe88456d58a2872a9350f6a9?src=flavio_PV_antiga',
         opcao4: 'https://checkout.payt.com.br/94546c6c568fd629ae0799b223921ca9?src=flavio_PV_antiga'
